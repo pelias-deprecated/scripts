@@ -4,10 +4,10 @@ Scripts (mostly written in groovy) that needs to be dropped in elasticsearch/con
 
 Scripts are written to disk primarily to [avoid dynamic scripting](http://www.elasticsearch.org/blog/running-groovy-scripts-without-dynamic-scripting/). 
 
-You could symlink this to your local elasticsearch config directory like so..
+You could symlink this to your local elasticsearch config directory like so.. 
 
 ```
-	ln -s scripts/ /path/to/elasticsearch/config/scripts	 
+ln -s /path/to/pelias/scripts/scripts /path/to/elasticsearch/config/scripts	 
 ```
 
 Or just place it in the ```config/scripts``` directory.
