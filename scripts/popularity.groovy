@@ -1,5 +1,5 @@
 if (doc.containsKey('popularity')) { 
-  return doc['popularity'].value 
+  return log10(doc['popularity'].value +1)
 } else {
   return 0
 }
