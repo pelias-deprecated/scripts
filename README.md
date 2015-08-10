@@ -31,3 +31,17 @@ Your script will not be usable until the script is loaded, at which point you wi
 ```
 
 Once the scripts has been loaded by all of your Elasticsearch data nodes, then you can begin to use it. 
+
+#### ubuntu
+
+Your install should look like this:
+
+```bash
+/etc/elasticsearch$ ls -lah
+total 36K
+drwxr-xr-x   2 root root 4.0K Jun  5 16:37 .
+drwxr-xr-x 174 root root  12K Aug 10 16:03 ..
+-rw-r--r--   1 root root  14K Apr 27 11:22 elasticsearch.yml
+-rw-r--r--   1 root root 2.0K Apr 27 11:22 logging.yml
+lrwxrwxrwx   1 root root   31 Mar 18 14:17 scripts -> /var/www/pelias/scripts/scripts
+```
